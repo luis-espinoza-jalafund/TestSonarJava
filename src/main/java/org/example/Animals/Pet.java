@@ -14,4 +14,7 @@ public class Pet {
     public void ShowAge() {
         System.out.println("the pet " + this.name + " is " + this.age + " years old");
     }
+    public String getName() {
+        return name;
+    }
 }
