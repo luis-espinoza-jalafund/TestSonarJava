@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.Animals.Cat;
 import org.example.Animals.Dog;
+import org.example.Animals.dUCk;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,5 +16,11 @@ public class Main {
         dog.Eat();
         dog.ShowAge();
         dog.isHappy();
+
+
+        dUCk duck;
+        duck = new dUCk("q",-2,true);
+        duck.Eat();
+        duck.ISWaling();
     }
 }
