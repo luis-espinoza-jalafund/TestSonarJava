@@ -1,5 +1,14 @@
 plugins {
     id("java")
+    id("org.sonarqube") version "4.4.1.3373"
+}
+
+sonar {
+    properties {
+        property("sonar.projectKey", "luis-espinoza-jalafund_TestSonarJava")
+        property("sonar.organization", "sonar-cloud-test-dev6")
+        property("sonar.host.url", "https://sonarcloud.io")
+    }
 }
 
 group = "org.example"
