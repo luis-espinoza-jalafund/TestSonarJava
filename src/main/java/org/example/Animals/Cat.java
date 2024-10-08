@@ -7,8 +7,8 @@ public class Cat extends Pet {
         this.isSleep = isSleep;
     }
 
-    public void isSleep() {
-        System.out.println(this.isSleep ? "cat is sleep." : "cat is not sleep.");
+    public String isSleep() {
+        return this.isSleep ? "cat is sleep." : "cat is not sleep.";
     }
 
     @Override

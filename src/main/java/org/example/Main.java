@@ -9,7 +9,7 @@ public class Main {
         Cat cat = new Cat("pepe", 1, true);
         cat.Eat();
         cat.ShowAge();
-        cat.isSleep();
+        System.out.println(cat.isSleep());
 
         Dog dog = new Dog("Sancho", 3, false);
         dog.Eat();
